@@ -14,14 +14,14 @@ object FrmExemplo02: TFrmExemplo02
   object lbl_sinal: TLabel
     Left = 135
     Top = 75
-    Width = 25
+    Width = 22
     Height = 45
     Caption = '+'
   end
   object lbl_resultado: TLabel
     Left = 391
     Top = 80
-    Width = 58
+    Width = 26
     Height = 45
   end
   object edt_vlr_1: TEdit

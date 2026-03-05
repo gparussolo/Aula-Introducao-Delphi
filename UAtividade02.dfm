@@ -14,13 +14,13 @@ object FrmAtividade02: TFrmAtividade02
   object lbl_sinal: TLabel
     Left = 151
     Top = 51
-    Width = 43
+    Width = 42
     Height = 45
   end
   object lbl_resultado: TLabel
-    Left = 431
+    Left = 440
     Top = 51
-    Width = 74
+    Width = 24
     Height = 45
   end
   object edt_vlr_1: TEdit
@@ -37,21 +37,14 @@ object FrmAtividade02: TFrmAtividade02
     Height = 53
     TabOrder = 1
   end
-  object btn_resultado: TButton
-    Left = 335
-    Top = 55
-    Width = 58
-    Height = 39
-    Caption = '='
-    TabOrder = 2
-  end
   object btn_soma: TButton
-    Left = 24
+    Left = 40
     Top = 152
     Width = 75
     Height = 25
     Caption = '+'
-    TabOrder = 3
+    TabOrder = 2
+    OnClick = btn_somaClick
   end
   object btn_subtracao: TButton
     Left = 151
@@ -59,7 +52,8 @@ object FrmAtividade02: TFrmAtividade02
     Width = 75
     Height = 25
     Caption = '-'
-    TabOrder = 4
+    TabOrder = 3
+    OnClick = btn_subtracaoClick
   end
   object btn_multiplicacao: TButton
     Left = 254
@@ -67,7 +61,8 @@ object FrmAtividade02: TFrmAtividade02
     Width = 75
     Height = 25
     Caption = '*'
-    TabOrder = 5
+    TabOrder = 4
+    OnClick = btn_multiplicacaoClick
   end
   object btn_divisao: TButton
     Left = 376
@@ -75,6 +70,7 @@ object FrmAtividade02: TFrmAtividade02
     Width = 75
     Height = 25
     Caption = '/'
-    TabOrder = 6
+    TabOrder = 5
+    OnClick = btn_divisaoClick
   end
 end
