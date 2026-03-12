@@ -14,13 +14,13 @@ object FrmAtividade02: TFrmAtividade02
   object lbl_sinal: TLabel
     Left = 151
     Top = 51
-    Width = 42
+    Width = 34
     Height = 45
   end
   object lbl_resultado: TLabel
     Left = 440
     Top = 51
-    Width = 24
+    Width = 9
     Height = 45
   end
   object edt_vlr_1: TEdit
