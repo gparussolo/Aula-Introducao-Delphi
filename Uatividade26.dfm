@@ -14,7 +14,7 @@ object Frm_atividade26: TFrm_atividade26
   object lbl_nome: TLabel
     Left = 24
     Top = 64
-    Width = 129
+    Width = 88
     Height = 45
     Caption = 'Nome'
     Font.Charset = DEFAULT_CHARSET
@@ -37,10 +37,10 @@ object Frm_atividade26: TFrm_atividade26
     Font.Style = []
     ParentFont = False
   end
-  object lbl_mensagem: TLabel
+  object lbl_resultado: TLabel
     Left = 48
     Top = 232
-    Width = 385
+    Width = 273
     Height = 45
     Color = clAqua
     Font.Charset = DEFAULT_CHARSET
@@ -55,7 +55,7 @@ object Frm_atividade26: TFrm_atividade26
     Left = 176
     Top = 61
     Width = 193
-    Height = 45
+    Height = 53
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clWindowText
     Font.Height = -32
@@ -68,7 +68,7 @@ object Frm_atividade26: TFrm_atividade26
     Left = 176
     Top = 133
     Width = 193
-    Height = 48
+    Height = 53
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clWindowText
     Font.Height = -32
@@ -79,7 +79,7 @@ object Frm_atividade26: TFrm_atividade26
   end
   object btn_exibeidade: TButton
     Left = 408
-    Top = 144
+    Top = 141
     Width = 177
     Height = 37
     Caption = 'Exibe Idade'
@@ -90,5 +90,6 @@ object Frm_atividade26: TFrm_atividade26
     Font.Style = []
     ParentFont = False
     TabOrder = 2
+    OnClick = btn_exibeidadeClick
   end
 end

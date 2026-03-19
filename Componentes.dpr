@@ -20,5 +20,6 @@ begin
   Application.CreateForm(TFrmExemplo02, FrmExemplo02);
   Application.CreateForm(TFrmAtividade02, FrmAtividade02);
   Application.CreateForm(TFrm_atividade26, Frm_atividade26);
+  Application.CreateForm(TFrm_atividade26, Frm_atividade26);
   Application.Run;
 end.

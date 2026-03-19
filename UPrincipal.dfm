@@ -31,7 +31,7 @@ object frmPrincipal: TfrmPrincipal
     OnClick = btnAtividade01Click
   end
   object btnExemplo02: TButton
-    Left = 32
+    Left = 24
     Top = 96
     Width = 153
     Height = 41
@@ -55,5 +55,6 @@ object frmPrincipal: TfrmPrincipal
     Height = 41
     Caption = 'Atividade 26'
     TabOrder = 4
+    OnClick = Btn_atividade26Click
   end
 end

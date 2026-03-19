@@ -13,7 +13,8 @@ type
     edt_nome: TEdit;
     edt_vlr: TEdit;
     btn_exibeidade: TButton;
-    lbl_mensagem: TLabel;
+    lbl_resultado: TLabel;
+    procedure btn_exibeidadeClick(Sender: TObject);
   private
     { Private declarations }
   public
@@ -26,5 +27,24 @@ var
 implementation
 
 {$R *.dfm}
+
+procedure TFrm_atividade26.btn_exibeidadeClick(Sender: TObject);
+
+  var
+  nome, frase: String;
+  idade, somaIdade: Integer;
+
+begin
+   nome := edt_Nome.Text;
+   idade := StrToInt (edt_vlr.Text);
+
+   somaIdade := 28 + idade;
+   frase :=  'Daqui a 28 anos sua idade será ' + IntToStr(somaIdade) + 'anos.';
+
+   lbl_resultado.Caption := frase
+
+
+
+end;
 
 end.
