@@ -2,16 +2,16 @@ object frmPrincipal: TfrmPrincipal
   Left = 0
   Top = 0
   Caption = 'Exemplo Componentes Aula Delphi'
-  ClientHeight = 390
-  ClientWidth = 606
+  ClientHeight = 373
+  ClientWidth = 600
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
-  Font.Height = -21
+  Font.Height = -32
   Font.Name = 'Segoe UI'
   Font.Style = []
   WindowState = wsMaximized
-  TextHeight = 30
+  TextHeight = 45
   object btnExemplo01: TButton
     Left = 24
     Top = 24
@@ -22,9 +22,9 @@ object frmPrincipal: TfrmPrincipal
     OnClick = btnExemplo01Click
   end
   object btnAtividade01: TButton
-    Left = 256
+    Left = 245
     Top = 25
-    Width = 150
+    Width = 196
     Height = 33
     Caption = 'Atividade 1'
     TabOrder = 1
@@ -33,7 +33,7 @@ object frmPrincipal: TfrmPrincipal
   object btnExemplo02: TButton
     Left = 24
     Top = 96
-    Width = 153
+    Width = 177
     Height = 41
     Caption = 'Exemplo 02'
     TabOrder = 2
@@ -41,9 +41,9 @@ object frmPrincipal: TfrmPrincipal
   end
   object btnAtividade02: TButton
     Left = 245
-    Top = 112
-    Width = 161
-    Height = 25
+    Top = 100
+    Width = 196
+    Height = 33
     Caption = 'Atividade 2'
     TabOrder = 3
     OnClick = btnAtividade02Click
@@ -51,10 +51,19 @@ object frmPrincipal: TfrmPrincipal
   object Btn_atividade26: TButton
     Left = 245
     Top = 168
-    Width = 161
+    Width = 196
     Height = 41
     Caption = 'Atividade 26'
     TabOrder = 4
     OnClick = Btn_atividade26Click
+  end
+  object btnAtividade27: TButton
+    Left = 245
+    Top = 240
+    Width = 212
+    Height = 41
+    Caption = 'Atividade 27'
+    TabOrder = 5
+    OnClick = btnAtividade27Click
   end
 end

@@ -40,7 +40,7 @@ object Frm_atividade26: TFrm_atividade26
   object lbl_resultado: TLabel
     Left = 48
     Top = 232
-    Width = 273
+    Width = 217
     Height = 45
     Color = clAqua
     Font.Charset = DEFAULT_CHARSET
